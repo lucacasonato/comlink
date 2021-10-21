@@ -15,7 +15,7 @@ import * as Comlink from "/base/dist/esm/comlink.mjs";
 
 describe("Comlink across workers", function () {
   beforeEach(function () {
-    this.worker = new Worker("/base/tests/fixtures/worker.js");
+    this.worker = new Worker("/base/tests/fixtures/worker-classic.js");
   });
 
   afterEach(function () {
